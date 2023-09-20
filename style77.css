@@ -1,0 +1,150 @@
+.navbarScroll {
+    background-color: rgb(236, 215, 245);
+}
+
+section.module.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  section.module.parallax-1 { background-image: url("Subham3.jpg"); }
+  section.module.parallax-2 { background-image: url("Subham13.jpg"); }
+  section.module.parallax-3 { background-image: url("Subham3.jpg"); }
+  section.module.parallax-4 { background-image: url("Subham12.jpg"); }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #43639e;
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #d36161;
+    font-weight: bold;   
+}
+nav ul li a:hover{
+    color: aquamarine;
+}
+.dete{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.dete1{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.dete1 h1{
+    font-size: 50px;
+    color: #07948d;
+    margin-bottom: 20px;
+
+}
+span{
+    color: orange;
+}
+ 
+
+.dete1 p{
+    color: #fcb0b0;
+    line-height: 22px;
+}
+.dete1 h2{
+    font-size: 50px;
+    color: #4adef1;
+    margin-bottom: 20px;
+
+}
+span{
+    color: rgb(140, 0, 255);
+}
+
+
+
+
+
+
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(87, 7, 7);
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+/* about section image css */
+.imageaboutPage {
+    width: 100%;
+
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.servicesText:hover {
+    border: 1px solid #2c572c;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover {
+    color: #2b73b6;
+}
+.fab {
+    color: #c02727;
+}
+/* footer styling */
+#footer {
+    background-color: #2c2b2b;
+    text-align: center;
+}
