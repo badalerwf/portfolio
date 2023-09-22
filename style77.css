@@ -128,7 +128,7 @@ span{
 .servicesIcon {
     font-size: 36px;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 .servicesText:hover {
     border: 1px solid #2c572c;
