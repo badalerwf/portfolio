@@ -123,11 +123,12 @@ span{
 .servicesText.card {
     height: 280px;
     cursor: pointer;
+    display: flex;
   }
 .servicesIcon {
     font-size: 36px;
     text-align: center;
-    width: 30%;
+    width: 100%;
 }
 .servicesText:hover {
     border: 1px solid #2c572c;
