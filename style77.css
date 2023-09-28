@@ -126,6 +126,11 @@ span{
     cursor: pointer;
     display: flex;
   }
+    .servicesText.card:item{
+        flex-grow:1
+        flex-basis:200;
+        
+    }
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -141,7 +146,7 @@ span{
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover {
-    color: #2b73b6;
+    color: #2lb73b6;
 }
 .fab {
     color: #c02727;
