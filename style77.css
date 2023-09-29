@@ -28,7 +28,7 @@ section.module.parallax {
 
 
 .hero{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100vh;
     background: #43639e;
@@ -121,6 +121,7 @@ span{
 }
 
 /* services section css */
+    
 .servicesText.card {
     height: 200px;
     cursor: pointer;
