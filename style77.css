@@ -4,8 +4,8 @@
 }
 
 section.module.parallax {
-    height: 500px;
-    background-position: 50% 50%;
+    height: 600px;
+    background-position: 0% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -103,7 +103,7 @@ span{
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#home,#about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
 }
