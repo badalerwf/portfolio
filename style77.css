@@ -1,11 +1,11 @@
-@media (max-width:600px){
+@media (max-width:500px){
 .navbarScroll {
     background-color: rgb(236, 215, 245);
 }
 
 section.module.parallax {
     height: 600px;
-    background-position: 0% 50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -47,7 +47,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #d36161;
+    color: black;
     font-weight: bold;   
 }
 nav ul li a:hover{
