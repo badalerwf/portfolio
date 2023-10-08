@@ -4,8 +4,8 @@
 }
 
 section.module.parallax {
-    height: 900px;
-    background-position: 80% 80%;
+    height: 500px;
+    background-position: 60% 60%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
